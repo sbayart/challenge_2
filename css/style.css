@@ -39,7 +39,7 @@ h4 {
 h4 span {
     color: #505050;
 }
-/*#menuderoulant {
+#menuderoulant {
   text-align: center;
   background-color: #A6A6A6;
   height: 59px;
@@ -47,36 +47,10 @@ h4 span {
   width: 124px;
   vertical-align: middle;
   padding: 20px 0;
-  display: inline-block;
-}
-#menuderoulant ul {
-  padding:0;
-  margin:0;
-  list-style:none;
-  text-align: center;
+  display: inline;
 }
 #menuderoulant li {
-   margin-bottom:2px;
-   box-shadow: 3px 3px 3px #999;
-   display: inline-block;
-}
-#menuderoulant li li {
-   max-height:0;
-   overflow: hidden;
-   transition: all .5s;
-   border-radius:0;
-   background: #444;
-   box-shadow: none;
-   border:none;
-   margin:0
-}
-#menuderoulant a {
-  display:block;
-  text-decoration: none;
-  color: #fff;
-  padding: 8px 0;
-  font-family: verdana;
-  font-size:1.2em
+    display: inline-block;
 }
 #menuderoulant ul li a, #menuderoulant li:hover li a {
   font-size:1em
@@ -103,32 +77,30 @@ nav {
 h5 {
     font-size: 12px;
     text-align: center;
+    height: 75px;
+    padding: 30px 0px;
+    background-color: white;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
 }
 h6 {
     font-size: 15px;
-
-
 }
 .fourcolumns {
-  width: 25%;
+  width: 24%;
   font-size: 14px;
   display: inline-block;
   vertical-align: top;
-  float: left;
-
-}
+  background-color: none;
+ }
 
 footer {
-
-    display: inline-block;
-    width: 900px;
-
+    display: block;
+    background-color: #fafafa;
+    border-top: 1px solid #f3f3f3;
+    padding-top: 40px;
 }
-
 div ul {
-
     list-style: none;
     padding-left: 0px;
-
-
 }
