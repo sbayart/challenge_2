@@ -5,7 +5,7 @@
 }
 body {
     width: 994px;
-    margin: auto;;
+    margin: auto;
 }
 h1, h2, h3, h4, h5, h6 {
         font-family: "Terminal Dosis", cursive;
@@ -106,10 +106,29 @@ h5 {
 }
 h6 {
     font-size: 15px;
+
+
 }
 .fourcolumns {
   width: 25%;
   font-size: 14px;
   display: inline-block;
-  list-style: none;
+  vertical-align: top;
+  float: left;
+
+}
+
+footer {
+
+    display: inline-block;
+    width: 900px;
+
+}
+
+div ul {
+
+    list-style: none;
+    padding-left: 0px;
+
+
 }
