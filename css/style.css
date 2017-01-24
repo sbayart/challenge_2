@@ -16,13 +16,18 @@ h1 {
 }
 h2 {
     font-size: 15px;
+    margin-bottom: 25px;
+}
+#loupe {
+    float: right;
+    padding-right:
 }
 nav ul li {
     list-style:none;
-    background-color: #A6A6A6;
+    background-color: #fafafa;
     height: 59px;
     text-align: center;
-    width: 124px;
+    width: 140px;
     vertical-align: middle;
     padding: 20px 0;
     display: inline-block;
@@ -39,9 +44,9 @@ h4 {
 h4 span {
     color: #505050;
 }
-#menuderoulant {
+nav ul {
   text-align: center;
-  background-color: #A6A6A6;
+  background-color: #fafafa;
   height: 59px;
   text-align: center;
   width: 124px;
@@ -49,25 +54,39 @@ h4 span {
   padding: 20px 0;
   display: inline;
 }
-ul li {
-    display: inline-block;
-
+ul, li {
+    margin: 0;
 }
-ul ul {
+/*nav li {
+    padding: 2em;
+}*/
+/*nav li ul li {
+    display: block;
+    position: relative;
+}*/
+nav ul ul {
   display: none;
-
+  position: relative;
 }
-li:hover ul {
-  display: block;
+nav li:hover ul {
+  display: inline-block;
+  height: 33px;
 }
 li li:hover ul {
    display: block;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 nav {
-    background-color: #A6A6A6;
+    background-color: #fafafa;
     width: 900px;
 
+}
+main {
+    margin-top: 25px;
+    width: 900px;
 }
 h5 {
     font-size: 12px;
@@ -94,6 +113,7 @@ footer {
     background-color: #fafafa;
     border-top: 1px solid #f3f3f3;
     padding-top: 40px;
+    width: 900px;
 }
 div ul {
     list-style: none;
